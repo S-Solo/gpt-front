@@ -1,5 +1,4 @@
 import DetailedInfo from "../components/DetailedInfo/DetailedInfo";
-import IdeaForm from "../components/IdeaForm/IdeaForm";
 import ImageTextContainer from "../components/ImageTextContainer/ImageTextContainer";
 import LandingImage from "../components/LandingImage/LandingImage";
 import HeroImageSrc from "../assets/hero.png";

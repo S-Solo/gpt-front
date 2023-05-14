@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import "./Header.scss";
 import { useState } from "react";
-import RequestDemoModal from "../RequestDemoModal/RequestDemoModal";
+import RequestDemoModal from "../RequestDemo/RequestDemoModal";
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
