@@ -1,0 +1,38 @@
+.request-demo {
+  border-top: 1px solid #ccc;
+  padding-top: 36px;
+  .request-demo-heading {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .request-demo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .request-demo-content-left {
+      display: flex;
+      flex-direction: column;
+      margin-right: 64px;
+      .request-demo-content-left-input {
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .input {
+          margin-left: 12px;
+        }
+      }
+    }
+    .request-demo-content-right {
+      display: flex;
+      flex-direction: column;
+      textarea {
+        margin-bottom: 12px;
+        min-height: 100px;
+        min-width: 350px;
+        padding: 8px 12px;
+      }
+    }
+  }
+}

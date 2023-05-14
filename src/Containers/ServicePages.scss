@@ -1,0 +1,12 @@
+.service-container {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  .service-label {
+    margin-right: 12px;
+    color: white;
+  }
+  .service-input {
+    min-width: 300px;
+  }
+}
