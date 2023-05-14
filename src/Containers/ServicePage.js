@@ -16,7 +16,7 @@ const ServicePage = () => {
     setTimeout(() => {
       setLoading(false);
       navigate("/response");
-    }, 2000);
+    }, 3_000);
   };
 
   return (

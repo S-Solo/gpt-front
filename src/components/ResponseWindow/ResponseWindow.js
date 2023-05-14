@@ -1,6 +1,6 @@
 import "./ResponseWindow.scss";
 import OwlImageSRC from "../../assets/owl.png";
-import TriangleSRC from "../../assets/triangle.png";
+// import TriangleSRC from "../../assets/triangle.png";
 import Image from "../Image/Image";
 
 const ResponseWindow = ({ text = "default" }) => {

@@ -1,12 +1,14 @@
-import Image from "../Image/Image";
-import LoaderSRC from "../../assets/loader.gif";
 import "./Loading.scss";
 
 const Loading = () => {
   return (
     <div className="app-loading">
-      <Image src={LoaderSRC} className="app-loading-img" />
-      {/* <div className="app-loading-text">Loading...</div> */}
+      <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+      <div className="app-loading-text">Processing</div>
       <div className="app-loading-backdrop"></div>
     </div>
   );
